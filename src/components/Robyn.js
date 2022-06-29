@@ -4,9 +4,9 @@ import Form from "./Form"
 
 const Robyn = () => {
 
-    const [name, setName] = useState()
-    const [firstname, setFirstname] = useState()
-    const [age, setAge] = useState()
+    const [name, setName] = useState('')
+    const [firstname, setFirstname] = useState('')
+    const [age, setAge] = useState('')
 
     return (
         <div>
