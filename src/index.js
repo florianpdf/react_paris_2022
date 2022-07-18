@@ -3,15 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Robyn from './components/Robyn';
-import Jenny from './components/Jenny';
+import List from './components/Simpson';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Robyn />
-    <Jenny />
+    <List />
   </React.StrictMode>
 );
 
